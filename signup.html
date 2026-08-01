@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+</head>
+<body>
+    <form action="" method="post">
+<label for="fullname">full name</label>
+    <input type="text" name="fullname" required minlength="3" maxlength="20" >
+    <label for="email">email</label>
+    <input type="email" name="email" required>
+    <label for="password">password</label>
+    <input type="password" name="password">
+    <label for="website">website</label>
+    <input type="website"name="website">
+<label for="phone">phone</label>
+    <input type="phone">
+    <label for="age">age</label>
+    <input type="age">
+    <label for="birthday">birthday</label>
+    <input type="date" name="birthday">
+    <label for="file">upload file</label>
+    <input type="file" name="file" id="" multiple>
+    <input type="hidden" name="source" value="website">
+    <label for="code">code</label>
+    <input type="text" name="code" pattern="[0-9]{5}" title="من فضلك ادخل الكود المكون من 5 ارقام">
+    <input type="submit" name="sign up" id="">
+    <input type="button" value="">
+    <label for="gender"></label>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">male</label>
+
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">female</label>
+<label for="hobbies">hobbies</label>
+<input type="checkbox" name="hobbies" id="coding" value="coding">
+<input type="checkbox" name="hobbies" id="" value="gaming">
+<input type="checkbox" name="hobbies" id="" value="reading">
+
+<label for="country">country</label>
+<select name="country" id="country">
+<optgroup label="country">
+    <option value="sy">syria</option>
+    <option value="sa">Saudi Arabia</option>
+    <option value="ae">UAE</option>
+    <option value="eg">Egypt</option>
+  </optgroup>
+
+></select>
+<label for="note">note</label>
+<textarea name="note" id="note">الملاحظة المطلوبة للتاسك</textarea>
+
+
+
+    </form>
+</body>
+</html>
